@@ -25,7 +25,7 @@
  
 .containerInside  h1 span{
   font-weight: 1000;
-  color: #fecd29;
+  color: #1e90ff;
 }
  
 .containerInside p {
@@ -49,5 +49,8 @@
 
   .containerParent {
     padding: 50px 0px;
+  }
+  .containerInside  h1{
+   font-size: 25px;
   }
 }

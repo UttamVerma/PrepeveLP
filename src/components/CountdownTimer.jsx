@@ -18,7 +18,7 @@ const CountdownTimer = () => {
 
     // Define the target date as 21st December, 6:00 PM (18:00) in either the current or next year
     let birthday = new Date(`${yyyy}-12-21T18:00:00`);
-    
+
     // If today's date is past 21st December, use the next year
     if (today > birthday) {
       birthday = new Date(`${nextYear}-12-21T18:00:00`);
@@ -52,6 +52,16 @@ const CountdownTimer = () => {
   return (
     <div className={styles.countdownTimer_container}>
       <h1 className={styles.countdownTimer_headline}>{headline}</h1>
+      <div className={styles.timerHeader}>
+        <p className={styles.dateDisplay}>
+          📅 21st December, 2024 &nbsp;&nbsp; ⏱️ 4:00 - 6:00pm
+        </p>
+      </div>
+      <div className={styles.timerHeader2}>
+        <p className={styles.dateDisplay2}>
+          📅 22nd December, 2024 &nbsp;&nbsp; ⏱️ 10:30am - 12:30pm
+        </p>
+      </div>
       {countdownVisible && (
         <div className={styles.countdownTimer_countdown}>
           <ul>

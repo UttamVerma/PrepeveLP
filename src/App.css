@@ -27,9 +27,9 @@ body {
 
 
   --primary-color-mustard: #f0b725;
-  --primary-color-blue: #81cad6;
+  --primary-color-blue: #1e90ff;
   --primary-color-green: #6a961f;
-  --primary-color-orange: #f17f56;
+  --primary-color-orange: #1e90ff;
 }
 
 h1 {
@@ -44,7 +44,7 @@ p {
 
 @font-face {
   font-family: "montserrat";
-  src: url("./assets/fonts/Montserrat-Regular.ttf") format("truetype");
+  src: url("./assets/fonts/bold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -71,6 +71,7 @@ button,
 textarea,
 input,
 span,
+li,
 select,
 option {
   font-family: "GtSectra", sans-serif;
@@ -78,7 +79,7 @@ option {
 
 @media all and (max-width: 767px) {
   h1 {
-    font-size: 30px;
+    font-size: 25px;
   }
   h2 {
     font-size: 20px;

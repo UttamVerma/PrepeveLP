@@ -56,34 +56,48 @@ const Features2 = () => {
             </div>
             <h1>Reasons to Attend This Webinar</h1>
             <p className={styles.FeaturesContentPara}>
-              Join our exclusive IELTS webinar to gain expert insights, proven
-              strategies, and practical tips for all test sections. Boost your
-              performance, access study materials, and interact with experienced
-              trainers to prepare confidently for a high band score.
+              Join our IELTS webinar for expert insights, strategies, tips,
+              study materials, and trainer interaction. Prepare confidently for
+              a high band score!
             </p>
             <div className={styles.FeaturesListParent}>
               <div>
                 <button className={styles.checkmarkButton}>✓</button>
               </div>{" "}
-              <p><b>Guaranteed IELTS Success:</b> This isn’t just any webinar. It’s a success blueprint! Get the exact steps to clear IELTS with ease.</p>
+              <p>
+                <b>Guaranteed IELTS Success:</b> This isn’t just any webinar.
+                It’s a success blueprint! Get the exact steps to clear IELTS
+                with ease.
+              </p>
             </div>
             <div className={styles.FeaturesListParent}>
               <div>
                 <button className={styles.checkmarkButton}>✓</button>
               </div>{" "}
-              <p><b>IELTS Cheat Sheet:</b> Quickly learn what you must do to pass.</p>
+              <p>
+                <b>IELTS Cheat Sheet:</b> Quickly learn what you must do to
+                pass.
+              </p>
             </div>
             <div className={styles.FeaturesListParent}>
               <div>
                 <button className={styles.checkmarkButton}>✓</button>
               </div>{" "}
-              <p><b>Lifetime Access and Support:</b>You get continuous access to the materials and our expert community, ensuring you are supported until you achieve your IELTS success!</p>
+              <p>
+                <b>Lifetime Access and Support:</b>You get continuous access to
+                the materials and our expert community, ensuring you are
+                supported until you achieve your IELTS success!
+              </p>
             </div>
             <div className={styles.FeaturesListParent}>
               <div>
                 <button className={styles.checkmarkButton}>✓</button>
               </div>{" "}
-              <p><b>Master Writing:</b> Understand how to structure your essays, respond to writing tasks, and impress examiners with clear and effective communication</p>
+              <p>
+                <b>Master Writing:</b> Understand how to structure your essays,
+                respond to writing tasks, and impress examiners with clear and
+                effective communication
+              </p>
             </div>
             <span className={styles.encquireNowButton}>
               <Button text={"JOIN NOW FOR Rs 99"} />

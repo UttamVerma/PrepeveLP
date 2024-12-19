@@ -49,7 +49,8 @@ let Button = ({ text }) => {
   };
   return (
     <button className={styles.buttonComponent} onClick={displayRazorpay}>
-      {text}
+      <h1> {text}</h1>
+     
     </button>
   );
 };

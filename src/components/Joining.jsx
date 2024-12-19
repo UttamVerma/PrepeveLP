@@ -81,7 +81,7 @@ let Joining = () => {
   };
 
   return (
-    <div className={styles.joiningParent} id="courses">
+    <div className={styles.joiningParent} id="faq">
       <img src={p3} className={styles.p3} />
       <img src={p3} className={styles.p4} />
       <div

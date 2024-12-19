@@ -35,6 +35,12 @@
   visibility: hidden;
 }
 
+@media all and (max-width: 767px){
+  .FeaturesImage{
+    display: none;
+  }
+}
+
 .FeaturesImage.showAnimationSection {
   transition-delay: 0.2s;
   top: 0;
@@ -218,5 +224,12 @@
 @media all and (max-width: 950px) {
   .FeaturesChild {
     width: 95vw;
+  }
+  .FeaturesParent {
+    padding: 40px 0px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+  }
+  .FeaturesContent h1 {
+    font-size: 25px;
   }
 }

@@ -34,13 +34,13 @@ let Footer = () => {
 
         <div className={styles.footerLinks}>
           <h3>Quick Links</h3>
-          <a href="#about">About Us</a>
+          {/* <a href="#about">About Us</a> */}
           <a href="#speaker">Speaker</a>
           <a href="#whyChooseUs">Why Join Us</a>
-          <a href="#whyJoin">FAQ'S</a>
+          <a href="#faq">FAQ'S</a>
           <a href="#whatLearn">Schedule</a>
           <a href="#testimonials">Testimonials</a>
-          {/* <a href="#contact">Contact</a> */}
+       
         </div>
         <div className={styles.footerContact}>
           <h3>Contact Us</h3>

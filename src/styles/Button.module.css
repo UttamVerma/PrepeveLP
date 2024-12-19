@@ -3,7 +3,7 @@
   padding: 20px 40px;
   border-radius: 1dvb;
   border: none;
-  background-color: var(--primary-color-orange);
+  background-color: var(--primary-color-blue);
   font-size: 15px;
   cursor: pointer;
   font-weight: 600;
@@ -14,12 +14,15 @@
 
 .buttonComponent:hover {
   color: var(--primary-color-white);
-  background-color: var(--primary-color-orange);
+  background-color: var(--primary-color-blue);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   animation: bounceAnimation 0.6s ease;
   /* border: 1px solid #f17f56; */
 }
-
+.buttonComponent h1{
+  font-size: 15px !important;
+  margin: 0px 0px !important;
+}
 /* Keyframes for pulsing effect */
 @keyframes pulseAnimation {
   0% {
@@ -46,5 +49,12 @@
   }
   100% {
     transform: translateY(0);
+  }
+}
+
+@media all and (max-width: 410px) {
+  .buttonComponent {
+    padding: 20px 20px;
+    font-size: 14px;
   }
 }

@@ -41,15 +41,15 @@ let Navbar = () => {
           <a href="#home">
             <img src={logo} alt="Logo" className={styles.logo} />
           </a>
-          <div className={styles.optionsDiv}>
+          {/* <div className={styles.optionsDiv}>
             <a href="#about">About Us</a>
             <a href="#speaker">Speaker</a>
             <a href="#whyChooseUs">Why Join Us</a>
             <a href="#whyJoin">FAQ'S</a>
             <a href="#whatLearn">Schedule</a>
             <a href="#testimonials">Testimonials</a>
-            {/* <a href="#contact">Contact</a> */}
-          </div>
+           
+          </div> */}
         </div>
       </div>
 
@@ -60,12 +60,12 @@ let Navbar = () => {
             <img src={logo} alt="Logo" className={styles.logo} />
           </a>
         </div>
-        <img
+        {/* <img
           src={hamburger}
           className={styles.hamburger}
           onClick={() => setShowMenu(true)}
           alt="Hamburger Menu"
-        />
+        /> */}
       </div>
 
       {/* Mobile Sidebar Menu */}
